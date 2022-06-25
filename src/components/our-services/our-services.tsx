@@ -1,30 +1,37 @@
 import './our-services.css';
 import { MailIcon, PhoneIcon } from '@heroicons/react/solid';
 import {useState} from "react";
+import AdobeStock_319199656 from '../../assets/AdobeStock_319199656.jpg';
+import AdobeStock_144248813 from '../../assets/AdobeStock_144248813.jpg';
+import AdobeStock_256102884 from '../../assets/AdobeStock_256102884.jpg';
+import AdobeStock_289273119 from '../../assets/AdobeStock_289273119.jpg';
+import AdobeStock_288949931 from '../../assets/AdobeStock_288949931.jpg';
+import AdobeStock_1968468 from '../../assets/1968468.jpg';
+
 
 const services = [
     {
-        imageSrc: '/AdobeStock_319199656.jpg',
+        imageSrc: AdobeStock_319199656,
         text: 'Skincare',
     },
     {
-        imageSrc: '/AdobeStock_144248813.jpg',
+        imageSrc: AdobeStock_144248813,
         text: 'Waxing',
     },
     {
-        imageSrc: '/AdobeStock_256102884.jpg',
+        imageSrc: AdobeStock_256102884,
         text: 'Facials',
     },
     {
-        imageSrc: '/AdobeStock_289273119.jpg',
+        imageSrc: AdobeStock_289273119,
         text: 'Med Spa',
     },
     {
-        imageSrc: '/AdobeStock_288949931.jpg',
+        imageSrc: AdobeStock_288949931,
         text: 'Hair Care',
     },
     {
-        imageSrc: '/1968468.jpg',
+        imageSrc: AdobeStock_1968468,
         text: 'PRP Hair Shots',
     }
 ];

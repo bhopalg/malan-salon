@@ -1,18 +1,21 @@
-import './styles/locations.module.css';
+import './locations.css';
 import { MailIcon, PhoneIcon } from '@heroicons/react/solid';
 import {useState} from "react";
+import AdobeStock_257755130 from '../../assets/AdobeStock_257755130.jpg';
+import AdobeStock_58607448 from '../../assets/AdobeStock_58607448.jpg';
+import AdobeStock_244624372 from '../../assets/AdobeStock_244624372.jpg';
 
 const locations = [
     {
-        imageSrc: '/AdobeStock_257755130.jpg',
+        imageSrc: AdobeStock_257755130,
         text: 'London',
     },
     {
-        imageSrc: '/AdobeStock_58607448.jpg',
+        imageSrc: AdobeStock_58607448,
         text: 'Dubai',
     },
     {
-        imageSrc: '/AdobeStock_244624372.jpg',
+        imageSrc: AdobeStock_244624372,
         text: 'New Jersey',
     }
 ];

@@ -1,18 +1,21 @@
 import './aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+import cosmo from '../../assets/as-seen-on/cosmo.png';
+import harparBzaar from '../../assets/as-seen-on/harpar-bazaar.png';
+import whatson from '../../assets/as-seen-on/whatson.png';
 
 const googleReviews = [
     {
-        imageSrc: '/as-seen-on/cosmo.png',
+        imageSrc: cosmo,
         alt: 'Cosmo',
     },
     {
-        imageSrc: '/as-seen-on/harpar-bazaar.png',
+        imageSrc: harparBzaar,
         alt: 'Harpar Bazaar',
     },
     {
-        imageSrc: '/as-seen-on/whatson.png',
+        imageSrc: whatson,
         alt: 'Whatson'
     },
 ];

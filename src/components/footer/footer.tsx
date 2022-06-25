@@ -1,4 +1,8 @@
 import './footer.css';
+import facebook from '../../assets/socials/facebook.svg';
+import twitter from '../../assets/socials/twitter.svg';
+import instagram from '../../assets/socials/instagram.svg';
+import logo from '../../assets/logo-white.png';
 
 function Footer() {
     return (
@@ -10,7 +14,7 @@ function Footer() {
                             <span className="sr-only">Malan</span>
                             <img
                                 className="h-8 w-auto sm:h-10"
-                                src="/logo-white.png"
+                                src={logo}
                                 alt=""
                             />
                         </a>
@@ -21,17 +25,17 @@ function Footer() {
                     <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                         <span className={`social-links facebook`}>
                             <a href={'#'} target={'_blank'} rel={'noreferrer'}>
-                                <img className={`facebook-image`} src={'/socials/facebook.svg'} alt={'Facebook'}/>
+                                <img className={`facebook-image`} src={facebook} alt={'Facebook'}/>
                             </a>
                         </span>
                         <span className={`social-links twitter`}>
                             <a href={'#'} target={'_blank'} rel={'noreferrer'}>
-                                <img className={`twitter-image`} src={'/socials/twitter.svg'} alt={'Twitter'}/>
+                                <img className={`twitter-image`} src={twitter} alt={'Twitter'}/>
                             </a>
                         </span>
                         <span className={`social-links instagram`}>
                             <a href={'#'} target={'_blank'} rel={'noreferrer'}>
-                              <img className={`instagram-image`} src={'/socials/instagram.svg'} alt={'Instagram'}/>
+                              <img className={`instagram-image`} src={instagram} alt={'Instagram'}/>
                             </a>
                         </span>
                     </div>

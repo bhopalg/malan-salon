@@ -1,21 +1,25 @@
 import './gallery.css';
 import {useState} from "react";
+import gallery1 from '../../assets/gallery/gallery1.jpg';
+import gallery2 from '../../assets/gallery/gallery2.jpg';
+import gallery3 from '../../assets/gallery/gallery3.jpg';
+import gallery4 from '../../assets/gallery/gallery4.jpg';
 
 const gallery = [
     {
-        imageSrc: '/gallery/gallery1.jpg',
+        imageSrc: gallery1,
         alt: 'Gallery1',
     },
     {
-        imageSrc: '/gallery/gallery2.jpg',
+        imageSrc: gallery2,
         alt: 'Gallery2',
     },
     {
-        imageSrc: '/gallery/gallery3.jpg',
+        imageSrc: gallery3,
         alt: 'Gallery3',
     },
     {
-        imageSrc: '/gallery/gallery4.jpg',
+        imageSrc: gallery4,
         alt: 'Gallery4',
     },
 ];
