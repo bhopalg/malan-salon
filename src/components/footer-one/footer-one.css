@@ -1,0 +1,107 @@
+.footer-one {
+    padding-left: 133px;
+    padding-right: 133px;
+    padding-top: 13%;
+}
+
+.footer-accounts, .footer-call, .footer-opening-times {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 152.19%;
+    color: #06060D;
+}
+
+.footer-accounts-links {
+    margin-top: 30px;
+}
+
+.footer-accounts-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 250%;
+    color: #06060D;
+}
+
+.footer-no {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 139.4%;
+    text-align: center;
+    color: #483452;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.newsletter-container-title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 152.19%;
+    text-align: center;
+    color: #06060D;
+}
+
+.newsletter-container-input {
+    max-width: 485.25px;
+    width: 100%;
+    height: 70px;
+}
+
+.newsletter-input {
+    border: 1.57358px solid #361134;
+    background-color: #F1E4F3;
+    color: white;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.subscribe-button {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 142.9%;
+    background: #483452;
+    max-width: 141px;
+    width: 100%;
+    max-height: 59.8px;
+    height: 100%;
+    position: absolute;
+    top: 9px;
+    right: 7px;
+    justify-content: center;
+}
+
+.footer-opening-time {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 191%;
+    color: #06060D;
+}
+
+.footer-three-li {
+    padding-left: 56%;
+}
+
+.footer-one {
+    margin-bottom: 192px;
+}
+
+@media (max-width: 768px) {
+    .footer-one {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 13%;
+        text-align: center;
+    }
+
+    .subscribe-button {
+        position: relative;
+        width: 100%;
+        max-width: initial;
+        right: 0;
+        max-height: inherit;
+        height: 59.8px;
+    }
+
+    .footer-three-li {
+        padding-left: 0;
+    }
+}

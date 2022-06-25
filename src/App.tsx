@@ -1,24 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from "./components/header/header";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Homepage from "./homepage";
+import FooterOne from "./components/footer-one/footer-one";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/">
+                    <Route index element={<Homepage/>} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
+        <FooterOne/>
+        <Footer/>
     </div>
   );
 }

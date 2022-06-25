@@ -1,0 +1,29 @@
+.header-container {
+    background-color: #F1E4F3;
+    padding: 0 2rem;
+    z-index: 4;
+}
+
+.booking-buttons, .mobile-menu-button {
+    background-color: #361134;
+    border-radius: 0;
+    border: 1px solid #361134;
+    transition: 0.3s;
+}
+
+.booking-buttons:hover {
+    background-color: #F1E4F3;
+    color: #361134;
+}
+
+.mobile-menu-icon {
+    filter: invert(100%) sepia(0%) saturate(7469%) hue-rotate(205deg) brightness(98%) contrast(100%);
+}
+
+.mobile-close-button {
+    background-color: #F1E4F3;
+}
+
+.mobile-close-icon {
+    filter: invert(9%) sepia(21%) saturate(4855%) hue-rotate(275deg) brightness(98%) contrast(98%);
+}

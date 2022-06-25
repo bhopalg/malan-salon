@@ -1,0 +1,45 @@
+.aos-container {
+    padding-top: 9.5%;
+}
+
+.aos-li {
+    max-height: 389px;
+    height: 100%;
+    max-width: 389px;
+    width: 100%;
+    position: relative;
+}
+
+.aos-title {
+    padding-bottom: 24px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    color: #06060D;
+}
+
+.aos-ul-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.aos-image-container, .aos-ul-container {
+    background-color: #361134;
+}
+
+.aos-image {
+    cursor: pointer;
+}
+
+.aos-image:hover {
+    filter: invert(23%) sepia(90%) saturate(1565%) hue-rotate(288deg) brightness(90%) contrast(105%);
+}
+
+@media (max-width: 768px) {
+    .aos-image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

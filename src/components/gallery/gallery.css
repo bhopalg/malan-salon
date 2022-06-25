@@ -1,0 +1,40 @@
+.gallery-container {
+    padding-top: 8.8%;
+}
+
+.gallery-li {
+    max-height: 316.34px;
+    height: 100%;
+    max-width: 316.34px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-li-image {
+    position: relative;
+    z-index: 0;
+    transition: transform .5s ease;
+}
+
+.gallery-li-image-hover {
+    transform: scale(1.1);
+}
+
+.gallery-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    color: #06060D;
+    padding-bottom: 54px;
+}
+
+@media (max-width: 768px) {
+    .gallery-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
