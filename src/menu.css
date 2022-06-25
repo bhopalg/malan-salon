@@ -1,0 +1,19 @@
+.main {
+  padding-top: 90px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.menu-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  color: #06060D;
+  padding-bottom: 54px;
+}
+
+@media (max-width: 768px) {
+}

@@ -7,8 +7,14 @@ import Locations from "./components/locations/locations";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import MalanOne from './assets/Malan-1.jpg';
+import {useEffect} from "react";
 
 function Homepage() {
+    useEffect(() => {
+        const el = document.querySelector('.fade-in-on-load');
+        el?.classList.add('fade-in');
+    })
+
     return <main className={'main'}>
         <div className={`banner-image-container`}>
             <div className={`banner-overlay fade-in-on-load-overlay`}></div>

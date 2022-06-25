@@ -1,0 +1,24 @@
+.fade-in-on-load, .fade-in-on-load-menu-1 {
+    opacity: 0;
+    transition: 2s opacity;
+    animation: fade 0.9s ease-in;
+}
+
+.fade-in-on-load-overlay {
+    animation: animate-color 1s ease-in;
+}
+
+.fade-in, .fade-in-menu-1 {
+    opacity: 1;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+}
+
+@keyframes animate-color {
+    from {background-color: rgba(0, 0, 0, 0.3);}
+    to {background-color: rgba(0, 0, 0, 0.4);}
+}
